@@ -1,0 +1,30 @@
+@import url(./resizer.css);
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.row {
+  flex: 1;
+  display: flex;
+}
+.column {
+  flex: 1;
+  padding: 20px;
+}
+.top {
+  background-color: #f0f0f0;
+  display: flex;
+  height: 100%;
+}
+.bottom {
+  background-color: #c0c0c0;
+  justify-content: center;
+  align-items: center;
+}
